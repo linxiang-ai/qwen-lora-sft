@@ -1,0 +1,680 @@
+nohup: ignoring input
+[transformers] warmup_ratio is deprecated and will be removed in v5.2. Use `warmup_steps` instead.
+[INFO|2026-05-23 11:56:10] llamafactory.hparams.parser:523 >> Process rank: 0, world size: 1, device: cuda:0, distributed training: False, compute dtype: torch.bfloat16
+[INFO|configuration_utils.py:769] 2026-05-23 11:56:10,030 >> loading configuration file /root/autodl-tmp/models/Qwen2.5-7B-Instruct/config.json
+[INFO|configuration_utils.py:847] 2026-05-23 11:56:10,033 >> Model config Qwen2Config {
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "hidden_act": "silu",
+  "hidden_size": 3584,
+  "initializer_range": 0.02,
+  "intermediate_size": 18944,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 32768,
+  "max_window_layers": 28,
+  "model_type": "qwen2",
+  "num_attention_heads": 28,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 4,
+  "pad_token_id": null,
+  "rms_norm_eps": 1e-06,
+  "rope_parameters": {
+    "rope_theta": 1000000.0,
+    "rope_type": "default"
+  },
+  "sliding_window": null,
+  "tie_word_embeddings": false,
+  "transformers_version": "5.6.0",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 152064
+}
+
+[INFO|configuration_utils.py:769] 2026-05-23 11:56:10,348 >> loading configuration file /root/autodl-tmp/models/Qwen2.5-7B-Instruct/config.json
+[INFO|configuration_utils.py:847] 2026-05-23 11:56:10,349 >> Model config Qwen2Config {
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "hidden_act": "silu",
+  "hidden_size": 3584,
+  "initializer_range": 0.02,
+  "intermediate_size": 18944,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 32768,
+  "max_window_layers": 28,
+  "model_type": "qwen2",
+  "num_attention_heads": 28,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 4,
+  "pad_token_id": null,
+  "rms_norm_eps": 1e-06,
+  "rope_parameters": {
+    "rope_theta": 1000000.0,
+    "rope_type": "default"
+  },
+  "sliding_window": null,
+  "tie_word_embeddings": false,
+  "transformers_version": "5.6.0",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 152064
+}
+
+[INFO|configuration_utils.py:769] 2026-05-23 11:56:10,349 >> loading configuration file /root/autodl-tmp/models/Qwen2.5-7B-Instruct/config.json
+[INFO|configuration_utils.py:847] 2026-05-23 11:56:10,350 >> Model config Qwen2Config {
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "hidden_act": "silu",
+  "hidden_size": 3584,
+  "initializer_range": 0.02,
+  "intermediate_size": 18944,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 32768,
+  "max_window_layers": 28,
+  "model_type": "qwen2",
+  "num_attention_heads": 28,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 4,
+  "pad_token_id": null,
+  "rms_norm_eps": 1e-06,
+  "rope_parameters": {
+    "rope_theta": 1000000.0,
+    "rope_type": "default"
+  },
+  "sliding_window": null,
+  "tie_word_embeddings": false,
+  "transformers_version": "5.6.0",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 152064
+}
+
+[INFO|2026-05-23 11:56:10] llamafactory.data.loader:144 >> Loading dataset ecommerce_cs.json...
+Setting num_proc from 4 back to 1 for the train split to disable multiprocessing as it only contains one shard.
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 300 examples [00:00, 16414.35 examples/s]
+Converting format of dataset (num_proc=4):   0%|                                                                         | 0/300 [00:00<?, ? examples/s]Converting format of dataset (num_proc=4): 100%|█████████████████████████████████████████████████████████████| 300/300 [00:00<00:00, 2199.06 examples/s]Converting format of dataset (num_proc=4): 100%|█████████████████████████████████████████████████████████████| 300/300 [00:00<00:00, 1228.25 examples/s]
+Running tokenizer on dataset (num_proc=4):   0%|                                                                         | 0/270 [00:00<?, ? examples/s]Running tokenizer on dataset (num_proc=4):  25%|████████████████                                                | 68/270 [00:01<00:05, 40.19 examples/s]Running tokenizer on dataset (num_proc=4):  50%|███████████████████████████████▋                               | 136/270 [00:02<00:02, 49.42 examples/s]Running tokenizer on dataset (num_proc=4):  75%|███████████████████████████████████████████████▎               | 203/270 [00:04<00:01, 52.31 examples/s]Running tokenizer on dataset (num_proc=4): 100%|███████████████████████████████████████████████████████████████| 270/270 [00:05<00:00, 55.65 examples/s]Running tokenizer on dataset (num_proc=4): 100%|███████████████████████████████████████████████████████████████| 270/270 [00:05<00:00, 51.38 examples/s]
+training example:
+input_ids:
+[151644, 8948, 198, 2610, 525, 1207, 16948, 11, 3465, 553, 54364, 14817, 13, 1446, 525, 264, 10950, 17847, 13, 151645, 198, 151644, 872, 198, 35946, 99494, 70927, 104381, 111105, 9370, 102289, 100054, 11319, 151645, 198, 151644, 77091, 198, 111308, 6313, 14880, 101071, 107189, 107354, 105045, 93568, 46477, 90395, 103944, 36667, 102296, 75882, 93568, 9370, 102955, 106585, 98380, 1773, 101948, 3837, 81167, 101214, 50410, 110045, 68262, 1773, 29524, 99754, 106197, 104381, 37945, 72064, 35946, 105096, 109547, 99917, 1773, 151645, 198]
+inputs:
+<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+我怎么没收到兑换的优惠券？<|im_end|>
+<|im_start|>assistant
+您好！请检查是否有填写正确的邮箱地址，并确保已开启该邮箱的邮件接收功能。另外，确认您的订单已完成支付。如仍未能收到，请联系我协助查找原因。<|im_end|>
+
+label_ids:
+[-100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, 111308, 6313, 14880, 101071, 107189, 107354, 105045, 93568, 46477, 90395, 103944, 36667, 102296, 75882, 93568, 9370, 102955, 106585, 98380, 1773, 101948, 3837, 81167, 101214, 50410, 110045, 68262, 1773, 29524, 99754, 106197, 104381, 37945, 72064, 35946, 105096, 109547, 99917, 1773, 151645, 198]
+labels:
+您好！请检查是否有填写正确的邮箱地址，并确保已开启该邮箱的邮件接收功能。另外，确认您的订单已完成支付。如仍未能收到，请联系我协助查找原因。<|im_end|>
+
+Running tokenizer on dataset (num_proc=4):   0%|                                                                          | 0/30 [00:00<?, ? examples/s]Running tokenizer on dataset (num_proc=4):  27%|█████████████████▌                                                | 8/30 [00:01<00:04,  4.79 examples/s]Running tokenizer on dataset (num_proc=4):  53%|██████████████████████████████████▋                              | 16/30 [00:02<00:02,  5.84 examples/s]Running tokenizer on dataset (num_proc=4):  77%|█████████████████████████████████████████████████▊               | 23/30 [00:03<00:01,  6.04 examples/s]Running tokenizer on dataset (num_proc=4): 100%|█████████████████████████████████████████████████████████████████| 30/30 [00:05<00:00,  6.06 examples/s]Running tokenizer on dataset (num_proc=4): 100%|█████████████████████████████████████████████████████████████████| 30/30 [00:05<00:00,  5.74 examples/s]
+[INFO|configuration_utils.py:769] 2026-05-23 11:56:26,932 >> loading configuration file /root/autodl-tmp/models/Qwen2.5-7B-Instruct/config.json
+[INFO|configuration_utils.py:847] 2026-05-23 11:56:26,938 >> Model config Qwen2Config {
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "hidden_act": "silu",
+  "hidden_size": 3584,
+  "initializer_range": 0.02,
+  "intermediate_size": 18944,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 32768,
+  "max_window_layers": 28,
+  "model_type": "qwen2",
+  "num_attention_heads": 28,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 4,
+  "pad_token_id": null,
+  "rms_norm_eps": 1e-06,
+  "rope_parameters": {
+    "rope_theta": 1000000.0,
+    "rope_type": "default"
+  },
+  "sliding_window": null,
+  "tie_word_embeddings": false,
+  "transformers_version": "5.6.0",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 152064
+}
+
+eval example:
+input_ids:
+[151644, 8948, 198, 2610, 525, 1207, 16948, 11, 3465, 553, 54364, 14817, 13, 1446, 525, 264, 10950, 17847, 13, 151645, 198, 151644, 872, 198, 100678, 97611, 102129, 104408, 80443, 100682, 11319, 151645, 198, 151644, 77091, 198, 111308, 6313, 102129, 104408, 36993, 100345, 104232, 100030, 80094, 100756, 50007, 3837, 100141, 106854, 75108, 106331, 99796, 1773, 29524, 102612, 38342, 74040, 37945, 71137, 32664, 100030, 65577, 1773, 102786, 106603, 37945, 99553, 104044, 105033, 9370, 99886, 107991, 3837, 35946, 44063, 102804, 100111, 1773, 151645, 198]
+inputs:
+<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+为什么我的会员等级没有变化？<|im_end|>
+<|im_start|>assistant
+您好！会员等级会根据累计消费金额自动更新，一般每周五结算一次。如长时间未变，请核对消费记录。如有疑问，请提供最近一个月的交易流水，我将为您查看。<|im_end|>
+
+label_ids:
+[-100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, 111308, 6313, 102129, 104408, 36993, 100345, 104232, 100030, 80094, 100756, 50007, 3837, 100141, 106854, 75108, 106331, 99796, 1773, 29524, 102612, 38342, 74040, 37945, 71137, 32664, 100030, 65577, 1773, 102786, 106603, 37945, 99553, 104044, 105033, 9370, 99886, 107991, 3837, 35946, 44063, 102804, 100111, 1773, 151645, 198]
+labels:
+您好！会员等级会根据累计消费金额自动更新，一般每周五结算一次。如长时间未变，请核对消费记录。如有疑问，请提供最近一个月的交易流水，我将为您查看。<|im_end|>
+
+[INFO|2026-05-23 11:56:26] llamafactory.model.model_utils.kv_cache:144 >> KV cache is disabled during training.
+[INFO|modeling_utils.py:748] 2026-05-23 11:56:27,682 >> loading weights file /root/autodl-tmp/models/Qwen2.5-7B-Instruct/model.safetensors.index.json
+[INFO|modeling_utils.py:821] 2026-05-23 11:56:27,682 >> Will use dtype=torch.bfloat16 as defined in model's config object
+[INFO|configuration_utils.py:1027] 2026-05-23 11:56:27,683 >> Generate config GenerationConfig {
+  "bos_token_id": 151643,
+  "eos_token_id": 151645,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "use_cache": false
+}
+
+Loading weights:   0%|                                                                                                          | 0/339 [00:00<?, ?it/s]Loading weights:   0%|▎                                                                                                 | 1/339 [00:00<00:47,  7.06it/s]Loading weights:   1%|▌                                                                                                 | 2/339 [00:00<00:47,  7.04it/s]Loading weights:   4%|████▎                                                                                            | 15/339 [00:00<00:06, 52.23it/s]Loading weights:   8%|████████                                                                                         | 28/339 [00:00<00:04, 75.69it/s]Loading weights:  12%|███████████▍                                                                                     | 40/339 [00:00<00:03, 84.48it/s]Loading weights:  15%|██████████████▉                                                                                  | 52/339 [00:00<00:03, 87.30it/s]Loading weights:  19%|██████████████████                                                                               | 63/339 [00:00<00:03, 88.24it/s]Loading weights:  22%|█████████████████████▋                                                                           | 76/339 [00:00<00:02, 92.90it/s]Loading weights:  26%|█████████████████████████▏                                                                       | 88/339 [00:01<00:02, 93.56it/s]Loading weights:  29%|████████████████████████████▎                                                                   | 100/339 [00:01<00:02, 92.72it/s]Loading weights:  32%|███████████████████████████████▏                                                                | 110/339 [00:01<00:02, 86.65it/s]Loading weights:  37%|███████████████████████████████████                                                             | 124/339 [00:01<00:02, 93.58it/s]Loading weights:  40%|██████████████████████████████████████▌                                                         | 136/339 [00:01<00:02, 94.54it/s]Loading weights:  44%|█████████████████████████████████████████▉                                                      | 148/339 [00:01<00:02, 93.60it/s]Loading weights:  47%|█████████████████████████████████████████████▎                                                  | 160/339 [00:01<00:01, 92.20it/s]Loading weights:  51%|████████████████████████████████████████████████▋                                               | 172/339 [00:02<00:01, 92.64it/s]Loading weights:  54%|███████████████████████████████████████████████████▊                                            | 183/339 [00:02<00:01, 90.45it/s]Loading weights:  58%|███████████████████████████████████████████████████████▏                                        | 195/339 [00:02<00:01, 91.02it/s]Loading weights:  61%|██████████████████████████████████████████████████████████▉                                     | 208/339 [00:02<00:01, 88.46it/s]Loading weights:  64%|█████████████████████████████████████████████████████████████▍                                  | 217/339 [00:02<00:01, 81.02it/s]Loading weights:  67%|████████████████████████████████████████████████████████████████                                | 226/339 [00:02<00:01, 78.74it/s]Loading weights:  69%|██████████████████████████████████████████████████████████████████▎                             | 234/339 [00:02<00:01, 75.33it/s]Loading weights:  73%|█████████████████████████████████████████████████████████████████████▋                          | 246/339 [00:02<00:01, 80.21it/s]Loading weights:  76%|████████████████████████████████████████████████████████████████████████▊                       | 257/339 [00:03<00:01, 80.33it/s]Loading weights:  79%|███████████████████████████████████████████████████████████████████████████▉                    | 268/339 [00:03<00:00, 75.93it/s]Loading weights:  83%|███████████████████████████████████████████████████████████████████████████████▌                | 281/339 [00:03<00:00, 82.75it/s]Loading weights:  86%|██████████████████████████████████████████████████████████████████████████████████▉             | 293/339 [00:03<00:00, 89.17it/s]Loading weights:  90%|██████████████████████████████████████████████████████████████████████████████████████▎         | 305/339 [00:03<00:00, 89.73it/s]Loading weights:  94%|█████████████████████████████████████████████████████████████████████████████████████████▊      | 317/339 [00:03<00:00, 90.16it/s]Loading weights:  97%|█████████████████████████████████████████████████████████████████████████████████████████████▏  | 329/339 [00:03<00:00, 90.52it/s]Loading weights: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 339/339 [00:03<00:00, 85.60it/s]
+[INFO|configuration_utils.py:978] 2026-05-23 11:56:32,545 >> loading configuration file /root/autodl-tmp/models/Qwen2.5-7B-Instruct/generation_config.json
+[INFO|configuration_utils.py:1027] 2026-05-23 11:56:32,546 >> Generate config GenerationConfig {
+  "bos_token_id": 151643,
+  "do_sample": true,
+  "eos_token_id": [
+    151645,
+    151643
+  ],
+  "pad_token_id": 151643,
+  "repetition_penalty": 1.05,
+  "temperature": 0.7,
+  "top_k": 20,
+  "top_p": 0.8
+}
+
+[INFO|dynamic_module_utils.py:406] 2026-05-23 11:56:32,546 >> Could not locate the custom_generate/generate.py inside /root/autodl-tmp/models/Qwen2.5-7B-Instruct.
+[INFO|2026-05-23 11:56:32] llamafactory.model.model_utils.checkpointing:144 >> Gradient checkpointing enabled.
+[INFO|2026-05-23 11:56:32] llamafactory.model.model_utils.attention:144 >> Using torch SDPA for faster training and inference.
+[INFO|2026-05-23 11:56:32] llamafactory.model.adapter:144 >> Upcasting trainable params to float32.
+[INFO|2026-05-23 11:56:32] llamafactory.model.adapter:144 >> Fine-tuning method: LoRA
+[INFO|2026-05-23 11:56:32] llamafactory.model.model_utils.misc:144 >> Found linear modules: up_proj,v_proj,o_proj,q_proj,down_proj,gate_proj,k_proj
+[INFO|2026-05-23 11:56:32] llamafactory.model.loader:144 >> trainable params: 20,185,088 || all params: 7,635,801,600 || trainable%: 0.2643
+[WARNING|trainer_utils.py:1238] 2026-05-23 11:56:32,886 >> The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None, 'pad_token_id': 151643}.
+[INFO|trainer.py:1469] 2026-05-23 11:56:33,153 >> ***** Running training *****
+[INFO|trainer.py:1470] 2026-05-23 11:56:33,153 >>   Num examples = 270
+[INFO|trainer.py:1471] 2026-05-23 11:56:33,153 >>   Num Epochs = 5
+[INFO|trainer.py:1472] 2026-05-23 11:56:33,153 >>   Num update steps per epoch = 34
+[INFO|trainer.py:1473] 2026-05-23 11:56:33,153 >>   Instantaneous batch size per device = 1
+[INFO|trainer.py:1476] 2026-05-23 11:56:33,153 >>   Total train batch size (w. parallel, distributed & accumulation) = 8
+[INFO|trainer.py:1477] 2026-05-23 11:56:33,153 >>   Gradient Accumulation steps = 8
+[INFO|trainer.py:1478] 2026-05-23 11:56:33,153 >>   Total optimization steps = 170
+[INFO|trainer.py:1479] 2026-05-23 11:56:33,156 >>   Number of trainable parameters = 20,185,088
+  0%|                                                                                                                           | 0/170 [00:00<?, ?it/s]  1%|▋                                                                                                                  | 1/170 [00:02<05:56,  2.11s/it]  1%|█▎                                                                                                                 | 2/170 [00:03<05:07,  1.83s/it]  2%|██                                                                                                                 | 3/170 [00:05<04:52,  1.75s/it]  2%|██▋                                                                                                                | 4/170 [00:07<04:44,  1.71s/it]  3%|███▍                                                                                                               | 5/170 [00:08<04:38,  1.69s/it]                                                                                                                                                          3%|███▍                                                                                                               | 5/170 [00:08<04:38,  1.69s/it]  4%|████                                                                                                               | 6/170 [00:10<04:35,  1.68s/it]  4%|████▋                                                                                                              | 7/170 [00:11<04:31,  1.66s/it]  5%|█████▍                                                                                                             | 8/170 [00:13<04:28,  1.66s/it]  5%|██████                                                                                                             | 9/170 [00:15<04:27,  1.66s/it]  6%|██████▋                                                                                                           | 10/170 [00:16<04:25,  1.66s/it]                                                                                                                                                          6%|██████▋                                                                                                           | 10/170 [00:16<04:25,  1.66s/it]  6%|███████▍                                                                                                          | 11/170 [00:18<04:24,  1.66s/it]  7%|████████                                                                                                          | 12/170 [00:20<04:21,  1.66s/it]  8%|████████▋                                                                                                         | 13/170 [00:21<04:20,  1.66s/it]  8%|█████████▍                                                                                                        | 14/170 [00:23<04:20,  1.67s/it]  9%|██████████                                                                                                        | 15/170 [00:25<04:18,  1.66s/it]                                                                                                                                                          9%|██████████                                                                                                        | 15/170 [00:25<04:18,  1.66s/it]  9%|██████████▋                                                                                                       | 16/170 [00:27<04:18,  1.68s/it] 10%|███████████▍                                                                                                      | 17/170 [00:28<04:16,  1.68s/it] 11%|████████████                                                                                                      | 18/170 [00:30<04:16,  1.68s/it] 11%|████████████▋                                                                                                     | 19/170 [00:32<04:14,  1.69s/it] 12%|█████████████▍                                                                                                    | 20/170 [00:33<04:13,  1.69s/it]                                                                                                                                                         12%|█████████████▍                                                                                                    | 20/170 [00:33<04:13,  1.69s/it] 12%|██████████████                                                                                                    | 21/170 [00:35<04:10,  1.68s/it] 13%|██████████████▊                                                                                                   | 22/170 [00:37<04:08,  1.68s/it] 14%|███████████████▍                                                                                                  | 23/170 [00:38<04:06,  1.67s/it] 14%|████████████████                                                                                                  | 24/170 [00:40<04:04,  1.67s/it] 15%|████████████████▊                                                                                                 | 25/170 [00:42<04:02,  1.67s/it]                                                                                                                                                         15%|████████████████▊                                                                                                 | 25/170 [00:42<04:02,  1.67s/it] 15%|█████████████████▍                                                                                                | 26/170 [00:43<04:01,  1.68s/it] 16%|██████████████████                                                                                                | 27/170 [00:45<03:59,  1.68s/it] 16%|██████████████████▊                                                                                               | 28/170 [00:47<03:57,  1.67s/it] 17%|███████████████████▍                                                                                              | 29/170 [00:48<03:56,  1.67s/it] 18%|████████████████████                                                                                              | 30/170 [00:50<03:55,  1.68s/it]                                                                                                                                                         18%|████████████████████                                                                                              | 30/170 [00:50<03:55,  1.68s/it] 18%|████████████████████▊                                                                                             | 31/170 [00:52<03:56,  1.70s/it] 19%|█████████████████████▍                                                                                            | 32/170 [00:53<03:56,  1.71s/it] 19%|██████████████████████▏                                                                                           | 33/170 [00:55<03:54,  1.71s/it] 20%|██████████████████████▊                                                                                           | 34/170 [00:56<03:35,  1.58s/it] 21%|███████████████████████▍                                                                                          | 35/170 [00:58<03:37,  1.61s/it]                                                                                                                                                         21%|███████████████████████▍                                                                                          | 35/170 [00:58<03:37,  1.61s/it] 21%|████████████████████████▏                                                                                         | 36/170 [01:00<03:40,  1.65s/it] 22%|████████████████████████▊                                                                                         | 37/170 [01:02<03:40,  1.66s/it] 22%|█████████████████████████▍                                                                                        | 38/170 [01:03<03:39,  1.66s/it] 23%|██████████████████████████▏                                                                                       | 39/170 [01:05<03:38,  1.67s/it] 24%|██████████████████████████▊                                                                                       | 40/170 [01:07<03:37,  1.67s/it]                                                                                                                                                         24%|██████████████████████████▊                                                                                       | 40/170 [01:07<03:37,  1.67s/it] 24%|███████████████████████████▍                                                                                      | 41/170 [01:08<03:36,  1.68s/it] 25%|████████████████████████████▏                                                                                     | 42/170 [01:10<03:34,  1.68s/it] 25%|████████████████████████████▊                                                                                     | 43/170 [01:12<03:33,  1.68s/it] 26%|█████████████████████████████▌                                                                                    | 44/170 [01:13<03:31,  1.68s/it] 26%|██████████████████████████████▏                                                                                   | 45/170 [01:15<03:29,  1.67s/it]                                                                                                                                                         26%|██████████████████████████████▏                                                                                   | 45/170 [01:15<03:29,  1.67s/it] 27%|██████████████████████████████▊                                                                                   | 46/170 [01:17<03:27,  1.68s/it] 28%|███████████████████████████████▌                                                                                  | 47/170 [01:18<03:25,  1.67s/it] 28%|████████████████████████████████▏                                                                                 | 48/170 [01:20<03:24,  1.68s/it] 29%|████████████████████████████████▊                                                                                 | 49/170 [01:22<03:23,  1.68s/it] 29%|█████████████████████████████████▌                                                                                | 50/170 [01:23<03:20,  1.67s/it]                                                                                                                                                         29%|█████████████████████████████████▌                                                                                | 50/170 [01:23<03:20,  1.67s/it][INFO|trainer.py:2668] 2026-05-23 11:57:57,053 >> 
+***** Running Evaluation *****
+[INFO|trainer.py:2670] 2026-05-23 11:57:57,053 >>   Num examples = 30
+[INFO|trainer.py:2673] 2026-05-23 11:57:57,053 >>   Batch size = 1
+{'loss': '2.766', 'grad_norm': '4.066', 'learning_rate': '1.176e-05', 'epoch': '0.1481'}
+{'loss': '2.937', 'grad_norm': '4.313', 'learning_rate': '2.647e-05', 'epoch': '0.2963'}
+{'loss': '2.293', 'grad_norm': '3.593', 'learning_rate': '4.118e-05', 'epoch': '0.4444'}
+{'loss': '1.669', 'grad_norm': '1.735', 'learning_rate': '4.998e-05', 'epoch': '0.5926'}
+{'loss': '1.454', 'grad_norm': '1.543', 'learning_rate': '4.974e-05', 'epoch': '0.7407'}
+{'loss': '1.248', 'grad_norm': '1.495', 'learning_rate': '4.924e-05', 'epoch': '0.8889'}
+{'loss': '1.246', 'grad_norm': '1.572', 'learning_rate': '4.849e-05', 'epoch': '1.03'}
+{'loss': '1.109', 'grad_norm': '1.763', 'learning_rate': '4.749e-05', 'epoch': '1.178'}
+{'loss': '1.043', 'grad_norm': '1.795', 'learning_rate': '4.626e-05', 'epoch': '1.326'}
+{'loss': '0.9716', 'grad_norm': '1.623', 'learning_rate': '4.479e-05', 'epoch': '1.474'}
+
+  0%|                                                                                                                            | 0/30 [00:00<?, ?it/s][A
+ 10%|███████████▌                                                                                                        | 3/30 [00:00<00:00, 29.03it/s][A
+ 20%|███████████████████████▏                                                                                            | 6/30 [00:00<00:01, 22.76it/s][A
+ 30%|██████████████████████████████████▊                                                                                 | 9/30 [00:00<00:00, 21.59it/s][A
+ 40%|██████████████████████████████████████████████                                                                     | 12/30 [00:00<00:00, 20.76it/s][A
+ 50%|█████████████████████████████████████████████████████████▌                                                         | 15/30 [00:00<00:00, 20.09it/s][A
+ 60%|█████████████████████████████████████████████████████████████████████                                              | 18/30 [00:00<00:00, 20.07it/s][A
+ 70%|████████████████████████████████████████████████████████████████████████████████▌                                  | 21/30 [00:01<00:00, 20.00it/s][A
+ 80%|████████████████████████████████████████████████████████████████████████████████████████████                       | 24/30 [00:01<00:00, 20.17it/s][A
+ 90%|███████████████████████████████████████████████████████████████████████████████████████████████████████▌           | 27/30 [00:01<00:00, 20.04it/s][A
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:01<00:00, 19.98it/s][A                                                                                                                                                        
+                                                                                                                                                        [A 29%|█████████████████████████████████▌                                                                                | 50/170 [01:25<03:20,  1.67s/it]
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:01<00:00, 19.98it/s][A
+                                                                                                                                                        [A 30%|██████████████████████████████████▏                                                                               | 51/170 [01:27<04:13,  2.13s/it] 31%|██████████████████████████████████▊                                                                               | 52/170 [01:28<03:54,  1.99s/it] 31%|███████████████████████████████████▌                                                                              | 53/170 [01:30<03:40,  1.88s/it] 32%|████████████████████████████████████▏                                                                             | 54/170 [01:32<03:30,  1.82s/it] 32%|████████████████████████████████████▉                                                                             | 55/170 [01:33<03:23,  1.77s/it]                                                                                                                                                         32%|████████████████████████████████████▉                                                                             | 55/170 [01:33<03:23,  1.77s/it] 33%|█████████████████████████████████████▌                                                                            | 56/170 [01:35<03:19,  1.75s/it] 34%|██████████████████████████████████████▏                                                                           | 57/170 [01:37<03:14,  1.72s/it] 34%|██████████████████████████████████████▉                                                                           | 58/170 [01:38<03:12,  1.72s/it] 35%|███████████████████████████████████████▌                                                                          | 59/170 [01:40<03:09,  1.70s/it] 35%|████████████████████████████████████████▏                                                                         | 60/170 [01:42<03:07,  1.70s/it]                                                                                                                                                         35%|████████████████████████████████████████▏                                                                         | 60/170 [01:42<03:07,  1.70s/it] 36%|████████████████████████████████████████▉                                                                         | 61/170 [01:43<03:04,  1.69s/it] 36%|█████████████████████████████████████████▌                                                                        | 62/170 [01:45<03:02,  1.69s/it] 37%|██████████████████████████████████████████▏                                                                       | 63/170 [01:47<03:00,  1.69s/it] 38%|██████████████████████████████████████████▉                                                                       | 64/170 [01:48<03:01,  1.71s/it] 38%|███████████████████████████████████████████▌                                                                      | 65/170 [01:50<03:01,  1.73s/it]                                                                                                                                                         38%|███████████████████████████████████████████▌                                                                      | 65/170 [01:50<03:01,  1.73s/it] 39%|████████████████████████████████████████████▎                                                                     | 66/170 [01:52<02:58,  1.72s/it] 39%|████████████████████████████████████████████▉                                                                     | 67/170 [01:54<02:54,  1.70s/it] 40%|█████████████████████████████████████████████▌                                                                    | 68/170 [01:55<02:39,  1.56s/it] 41%|██████████████████████████████████████████████▎                                                                   | 69/170 [01:56<02:39,  1.58s/it] 41%|██████████████████████████████████████████████▉                                                                   | 70/170 [01:58<02:40,  1.60s/it]                                                                                                                                                         41%|██████████████████████████████████████████████▉                                                                   | 70/170 [01:58<02:40,  1.60s/it] 42%|███████████████████████████████████████████████▌                                                                  | 71/170 [02:00<02:39,  1.61s/it] 42%|████████████████████████████████████████████████▎                                                                 | 72/170 [02:01<02:38,  1.62s/it] 43%|████████████████████████████████████████████████▉                                                                 | 73/170 [02:03<02:37,  1.63s/it] 44%|█████████████████████████████████████████████████▌                                                                | 74/170 [02:05<02:36,  1.63s/it] 44%|██████████████████████████████████████████████████▎                                                               | 75/170 [02:06<02:35,  1.64s/it]                                                                                                                                                         44%|██████████████████████████████████████████████████▎                                                               | 75/170 [02:06<02:35,  1.64s/it] 45%|██████████████████████████████████████████████████▉                                                               | 76/170 [02:08<02:34,  1.65s/it] 45%|███████████████████████████████████████████████████▋                                                              | 77/170 [02:10<02:33,  1.65s/it] 46%|████████████████████████████████████████████████████▎                                                             | 78/170 [02:11<02:31,  1.65s/it] 46%|████████████████████████████████████████████████████▉                                                             | 79/170 [02:13<02:30,  1.65s/it] 47%|█████████████████████████████████████████████████████▋                                                            | 80/170 [02:15<02:28,  1.65s/it]                                                                                                                                                         47%|█████████████████████████████████████████████████████▋                                                            | 80/170 [02:15<02:28,  1.65s/it] 48%|██████████████████████████████████████████████████████▎                                                           | 81/170 [02:16<02:27,  1.66s/it] 48%|██████████████████████████████████████████████████████▉                                                           | 82/170 [02:18<02:25,  1.66s/it] 49%|███████████████████████████████████████████████████████▋                                                          | 83/170 [02:20<02:24,  1.66s/it] 49%|████████████████████████████████████████████████████████▎                                                         | 84/170 [02:21<02:22,  1.66s/it] 50%|█████████████████████████████████████████████████████████                                                         | 85/170 [02:23<02:20,  1.66s/it]                                                                                                                                                         50%|█████████████████████████████████████████████████████████                                                         | 85/170 [02:23<02:20,  1.66s/it] 51%|█████████████████████████████████████████████████████████▋                                                        | 86/170 [02:25<02:18,  1.65s/it] 51%|██████████████████████████████████████████████████████████▎                                                       | 87/170 [02:26<02:16,  1.65s/it] 52%|███████████████████████████████████████████████████████████                                                       | 88/170 [02:28<02:15,  1.65s/it] 52%|███████████████████████████████████████████████████████████▋                                                      | 89/170 [02:29<02:13,  1.65s/it] 53%|████████████████████████████████████████████████████████████▎                                                     | 90/170 [02:31<02:13,  1.67s/it]                                                                                                                                                         53%|████████████████████████████████████████████████████████████▎                                                     | 90/170 [02:31<02:13,  1.67s/it] 54%|█████████████████████████████████████████████████████████████                                                     | 91/170 [02:33<02:13,  1.69s/it] 54%|█████████████████████████████████████████████████████████████▋                                                    | 92/170 [02:35<02:13,  1.71s/it] 55%|██████████████████████████████████████████████████████████████▎                                                   | 93/170 [02:36<02:12,  1.72s/it] 55%|███████████████████████████████████████████████████████████████                                                   | 94/170 [02:38<02:11,  1.73s/it] 56%|███████████████████████████████████████████████████████████████▋                                                  | 95/170 [02:40<02:08,  1.72s/it]                                                                                                                                                         56%|███████████████████████████████████████████████████████████████▋                                                  | 95/170 [02:40<02:08,  1.72s/it] 56%|████████████████████████████████████████████████████████████████▍                                                 | 96/170 [02:42<02:06,  1.71s/it] 57%|█████████████████████████████████████████████████████████████████                                                 | 97/170 [02:43<02:05,  1.71s/it] 58%|█████████████████████████████████████████████████████████████████▋                                                | 98/170 [02:45<02:03,  1.71s/it] 58%|██████████████████████████████████████████████████████████████████▍                                               | 99/170 [02:47<02:01,  1.71s/it] 59%|██████████████████████████████████████████████████████████████████▍                                              | 100/170 [02:48<01:59,  1.70s/it]                                                                                                                                                         59%|██████████████████████████████████████████████████████████████████▍                                              | 100/170 [02:48<01:59,  1.70s/it][INFO|trainer.py:2668] 2026-05-23 11:59:22,015 >> 
+***** Running Evaluation *****
+[INFO|trainer.py:2670] 2026-05-23 11:59:22,015 >>   Num examples = 30
+[INFO|trainer.py:2673] 2026-05-23 11:59:22,015 >>   Batch size = 1
+{'eval_loss': '1.05', 'eval_runtime': '1.537', 'eval_samples_per_second': '19.52', 'eval_steps_per_second': '19.52', 'epoch': '1.474'}
+{'loss': '1.009', 'grad_norm': '1.72', 'learning_rate': '4.313e-05', 'epoch': '1.622'}
+{'loss': '0.932', 'grad_norm': '1.688', 'learning_rate': '4.127e-05', 'epoch': '1.77'}
+{'loss': '1.014', 'grad_norm': '1.631', 'learning_rate': '3.923e-05', 'epoch': '1.919'}
+{'loss': '0.9342', 'grad_norm': '1.41', 'learning_rate': '3.705e-05', 'epoch': '2.059'}
+{'loss': '0.821', 'grad_norm': '1.582', 'learning_rate': '3.474e-05', 'epoch': '2.207'}
+{'loss': '0.8426', 'grad_norm': '1.628', 'learning_rate': '3.233e-05', 'epoch': '2.356'}
+{'loss': '0.8779', 'grad_norm': '2.088', 'learning_rate': '2.985e-05', 'epoch': '2.504'}
+{'loss': '0.821', 'grad_norm': '1.914', 'learning_rate': '2.731e-05', 'epoch': '2.652'}
+{'loss': '0.8661', 'grad_norm': '1.996', 'learning_rate': '2.474e-05', 'epoch': '2.8'}
+{'loss': '0.8483', 'grad_norm': '1.955', 'learning_rate': '2.218e-05', 'epoch': '2.948'}
+
+  0%|                                                                                                                            | 0/30 [00:00<?, ?it/s][A
+ 10%|███████████▌                                                                                                        | 3/30 [00:00<00:00, 28.32it/s][A
+ 20%|███████████████████████▏                                                                                            | 6/30 [00:00<00:01, 22.49it/s][A
+ 30%|██████████████████████████████████▊                                                                                 | 9/30 [00:00<00:00, 21.22it/s][A
+ 40%|██████████████████████████████████████████████                                                                     | 12/30 [00:00<00:00, 20.34it/s][A
+ 50%|█████████████████████████████████████████████████████████▌                                                         | 15/30 [00:00<00:00, 19.92it/s][A
+ 60%|█████████████████████████████████████████████████████████████████████                                              | 18/30 [00:00<00:00, 19.68it/s][A
+ 67%|████████████████████████████████████████████████████████████████████████████▋                                      | 20/30 [00:00<00:00, 19.48it/s][A
+ 73%|████████████████████████████████████████████████████████████████████████████████████▎                              | 22/30 [00:01<00:00, 19.61it/s][A
+ 80%|████████████████████████████████████████████████████████████████████████████████████████████                       | 24/30 [00:01<00:00, 19.70it/s][A
+ 87%|███████████████████████████████████████████████████████████████████████████████████████████████████▋               | 26/30 [00:01<00:00, 19.58it/s][A
+ 93%|███████████████████████████████████████████████████████████████████████████████████████████████████████████▎       | 28/30 [00:01<00:00, 19.52it/s][A
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:01<00:00, 19.53it/s][A                                                                                                                                                        
+                                                                                                                                                        [A 59%|██████████████████████████████████████████████████████████████████▍                                              | 100/170 [02:50<01:59,  1.70s/it]
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:01<00:00, 19.53it/s][A
+                                                                                                                                                        [A[INFO|trainer.py:3815] 2026-05-23 11:59:23,569 >> Saving model checkpoint to /root/autodl-tmp/saves/qwen25-7b-lora-sft-m2/checkpoint-100
+[INFO|configuration_utils.py:769] 2026-05-23 11:59:23,590 >> loading configuration file /root/autodl-tmp/models/Qwen2.5-7B-Instruct/config.json
+[INFO|configuration_utils.py:847] 2026-05-23 11:59:23,591 >> Model config Qwen2Config {
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "hidden_act": "silu",
+  "hidden_size": 3584,
+  "initializer_range": 0.02,
+  "intermediate_size": 18944,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 32768,
+  "max_window_layers": 28,
+  "model_type": "qwen2",
+  "num_attention_heads": 28,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 4,
+  "pad_token_id": null,
+  "rms_norm_eps": 1e-06,
+  "rope_parameters": {
+    "rope_theta": 1000000.0,
+    "rope_type": "default"
+  },
+  "sliding_window": null,
+  "tie_word_embeddings": false,
+  "transformers_version": "5.6.0",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 152064
+}
+
+[INFO|tokenization_utils_base.py:3278] 2026-05-23 11:59:23,691 >> chat template saved in /root/autodl-tmp/saves/qwen25-7b-lora-sft-m2/checkpoint-100/chat_template.jinja
+[INFO|tokenization_utils_base.py:2111] 2026-05-23 11:59:23,691 >> tokenizer config file saved in /root/autodl-tmp/saves/qwen25-7b-lora-sft-m2/checkpoint-100/tokenizer_config.json
+ 59%|███████████████████████████████████████████████████████████████████▏                                             | 101/170 [02:52<02:37,  2.28s/it] 60%|███████████████████████████████████████████████████████████████████▊                                             | 102/170 [02:53<02:14,  1.98s/it] 61%|████████████████████████████████████████████████████████████████████▍                                            | 103/170 [02:55<02:07,  1.91s/it] 61%|█████████████████████████████████████████████████████████████████████▏                                           | 104/170 [02:57<02:01,  1.85s/it] 62%|█████████████████████████████████████████████████████████████████████▊                                           | 105/170 [02:58<01:56,  1.80s/it]                                                                                                                                                         62%|█████████████████████████████████████████████████████████████████████▊                                           | 105/170 [02:58<01:56,  1.80s/it] 62%|██████████████████████████████████████████████████████████████████████▍                                          | 106/170 [03:00<01:53,  1.77s/it] 63%|███████████████████████████████████████████████████████████████████████                                          | 107/170 [03:02<01:50,  1.75s/it] 64%|███████████████████████████████████████████████████████████████████████▊                                         | 108/170 [03:03<01:47,  1.73s/it] 64%|████████████████████████████████████████████████████████████████████████▍                                        | 109/170 [03:05<01:44,  1.71s/it] 65%|█████████████████████████████████████████████████████████████████████████                                        | 110/170 [03:07<01:42,  1.70s/it]                                                                                                                                                         65%|█████████████████████████████████████████████████████████████████████████                                        | 110/170 [03:07<01:42,  1.70s/it] 65%|█████████████████████████████████████████████████████████████████████████▊                                       | 111/170 [03:09<01:40,  1.71s/it] 66%|██████████████████████████████████████████████████████████████████████████▍                                      | 112/170 [03:10<01:38,  1.70s/it] 66%|███████████████████████████████████████████████████████████████████████████                                      | 113/170 [03:12<01:36,  1.70s/it] 67%|███████████████████████████████████████████████████████████████████████████▊                                     | 114/170 [03:14<01:34,  1.69s/it] 68%|████████████████████████████████████████████████████████████████████████████▍                                    | 115/170 [03:15<01:33,  1.69s/it]                                                                                                                                                         68%|████████████████████████████████████████████████████████████████████████████▍                                    | 115/170 [03:15<01:33,  1.69s/it] 68%|█████████████████████████████████████████████████████████████████████████████                                    | 116/170 [03:17<01:31,  1.70s/it] 69%|█████████████████████████████████████████████████████████████████████████████▊                                   | 117/170 [03:19<01:29,  1.69s/it] 69%|██████████████████████████████████████████████████████████████████████████████▍                                  | 118/170 [03:20<01:27,  1.69s/it] 70%|███████████████████████████████████████████████████████████████████████████████                                  | 119/170 [03:22<01:26,  1.69s/it] 71%|███████████████████████████████████████████████████████████████████████████████▊                                 | 120/170 [03:24<01:24,  1.68s/it]                                                                                                                                                         71%|███████████████████████████████████████████████████████████████████████████████▊                                 | 120/170 [03:24<01:24,  1.68s/it] 71%|████████████████████████████████████████████████████████████████████████████████▍                                | 121/170 [03:25<01:22,  1.69s/it] 72%|█████████████████████████████████████████████████████████████████████████████████                                | 122/170 [03:27<01:20,  1.68s/it] 72%|█████████████████████████████████████████████████████████████████████████████████▊                               | 123/170 [03:29<01:19,  1.68s/it] 73%|██████████████████████████████████████████████████████████████████████████████████▍                              | 124/170 [03:30<01:17,  1.68s/it] 74%|███████████████████████████████████████████████████████████████████████████████████                              | 125/170 [03:32<01:15,  1.68s/it]                                                                                                                                                         74%|███████████████████████████████████████████████████████████████████████████████████                              | 125/170 [03:32<01:15,  1.68s/it] 74%|███████████████████████████████████████████████████████████████████████████████████▊                             | 126/170 [03:34<01:13,  1.67s/it] 75%|████████████████████████████████████████████████████████████████████████████████████▍                            | 127/170 [03:35<01:12,  1.68s/it] 75%|█████████████████████████████████████████████████████████████████████████████████████                            | 128/170 [03:37<01:10,  1.68s/it] 76%|█████████████████████████████████████████████████████████████████████████████████████▋                           | 129/170 [03:39<01:08,  1.67s/it] 76%|██████████████████████████████████████████████████████████████████████████████████████▍                          | 130/170 [03:40<01:06,  1.66s/it]                                                                                                                                                         76%|██████████████████████████████████████████████████████████████████████████████████████▍                          | 130/170 [03:40<01:06,  1.66s/it] 77%|███████████████████████████████████████████████████████████████████████████████████████                          | 131/170 [03:42<01:04,  1.67s/it] 78%|███████████████████████████████████████████████████████████████████████████████████████▋                         | 132/170 [03:44<01:03,  1.67s/it] 78%|████████████████████████████████████████████████████████████████████████████████████████▍                        | 133/170 [03:45<01:01,  1.67s/it] 79%|█████████████████████████████████████████████████████████████████████████████████████████                        | 134/170 [03:47<01:00,  1.67s/it] 79%|█████████████████████████████████████████████████████████████████████████████████████████▋                       | 135/170 [03:49<00:58,  1.67s/it]                                                                                                                                                         79%|█████████████████████████████████████████████████████████████████████████████████████████▋                       | 135/170 [03:49<00:58,  1.67s/it] 80%|██████████████████████████████████████████████████████████████████████████████████████████▍                      | 136/170 [03:50<00:52,  1.55s/it] 81%|███████████████████████████████████████████████████████████████████████████████████████████                      | 137/170 [03:52<00:52,  1.58s/it] 81%|███████████████████████████████████████████████████████████████████████████████████████████▋                     | 138/170 [03:53<00:51,  1.60s/it] 82%|████████████████████████████████████████████████████████████████████████████████████████████▍                    | 139/170 [03:55<00:50,  1.61s/it] 82%|█████████████████████████████████████████████████████████████████████████████████████████████                    | 140/170 [03:57<00:48,  1.62s/it]                                                                                                                                                         82%|█████████████████████████████████████████████████████████████████████████████████████████████                    | 140/170 [03:57<00:48,  1.62s/it] 83%|█████████████████████████████████████████████████████████████████████████████████████████████▋                   | 141/170 [03:58<00:47,  1.63s/it] 84%|██████████████████████████████████████████████████████████████████████████████████████████████▍                  | 142/170 [04:00<00:45,  1.63s/it] 84%|███████████████████████████████████████████████████████████████████████████████████████████████                  | 143/170 [04:02<00:44,  1.64s/it] 85%|███████████████████████████████████████████████████████████████████████████████████████████████▋                 | 144/170 [04:03<00:42,  1.65s/it] 85%|████████████████████████████████████████████████████████████████████████████████████████████████▍                | 145/170 [04:05<00:41,  1.65s/it]                                                                                                                                                         85%|████████████████████████████████████████████████████████████████████████████████████████████████▍                | 145/170 [04:05<00:41,  1.65s/it] 86%|█████████████████████████████████████████████████████████████████████████████████████████████████                | 146/170 [04:07<00:39,  1.65s/it] 86%|█████████████████████████████████████████████████████████████████████████████████████████████████▋               | 147/170 [04:08<00:38,  1.66s/it] 87%|██████████████████████████████████████████████████████████████████████████████████████████████████▍              | 148/170 [04:10<00:36,  1.65s/it] 88%|███████████████████████████████████████████████████████████████████████████████████████████████████              | 149/170 [04:12<00:34,  1.65s/it] 88%|███████████████████████████████████████████████████████████████████████████████████████████████████▋             | 150/170 [04:13<00:32,  1.65s/it]                                                                                                                                                         88%|███████████████████████████████████████████████████████████████████████████████████████████████████▋             | 150/170 [04:13<00:32,  1.65s/it][INFO|trainer.py:2668] 2026-05-23 12:00:46,837 >> 
+***** Running Evaluation *****
+[INFO|trainer.py:2670] 2026-05-23 12:00:46,837 >>   Num examples = 30
+[INFO|trainer.py:2673] 2026-05-23 12:00:46,837 >>   Batch size = 1
+{'eval_loss': '0.9887', 'eval_runtime': '1.555', 'eval_samples_per_second': '19.29', 'eval_steps_per_second': '19.29', 'epoch': '2.948'}
+{'loss': '0.822', 'grad_norm': '1.951', 'learning_rate': '1.965e-05', 'epoch': '3.089'}
+{'loss': '0.7265', 'grad_norm': '1.767', 'learning_rate': '1.718e-05', 'epoch': '3.237'}
+{'loss': '0.7518', 'grad_norm': '2.014', 'learning_rate': '1.478e-05', 'epoch': '3.385'}
+{'loss': '0.6915', 'grad_norm': '1.885', 'learning_rate': '1.25e-05', 'epoch': '3.533'}
+{'loss': '0.7313', 'grad_norm': '2.221', 'learning_rate': '1.035e-05', 'epoch': '3.681'}
+{'loss': '0.716', 'grad_norm': '1.801', 'learning_rate': '8.348e-06', 'epoch': '3.83'}
+{'loss': '0.7368', 'grad_norm': '1.927', 'learning_rate': '6.525e-06', 'epoch': '3.978'}
+{'loss': '0.6729', 'grad_norm': '2.027', 'learning_rate': '4.896e-06', 'epoch': '4.119'}
+{'loss': '0.6644', 'grad_norm': '1.966', 'learning_rate': '3.479e-06', 'epoch': '4.267'}
+{'loss': '0.6823', 'grad_norm': '2.098', 'learning_rate': '2.288e-06', 'epoch': '4.415'}
+
+  0%|                                                                                                                            | 0/30 [00:00<?, ?it/s][A
+ 10%|███████████▌                                                                                                        | 3/30 [00:00<00:00, 29.41it/s][A
+ 20%|███████████████████████▏                                                                                            | 6/30 [00:00<00:01, 23.00it/s][A
+ 30%|██████████████████████████████████▊                                                                                 | 9/30 [00:00<00:00, 21.75it/s][A
+ 40%|██████████████████████████████████████████████                                                                     | 12/30 [00:00<00:00, 20.89it/s][A
+ 50%|█████████████████████████████████████████████████████████▌                                                         | 15/30 [00:00<00:00, 20.31it/s][A
+ 60%|█████████████████████████████████████████████████████████████████████                                              | 18/30 [00:00<00:00, 20.20it/s][A
+ 70%|████████████████████████████████████████████████████████████████████████████████▌                                  | 21/30 [00:01<00:00, 19.93it/s][A
+ 80%|████████████████████████████████████████████████████████████████████████████████████████████                       | 24/30 [00:01<00:00, 20.07it/s][A
+ 90%|███████████████████████████████████████████████████████████████████████████████████████████████████████▌           | 27/30 [00:01<00:00, 19.93it/s][A
+ 97%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████▏   | 29/30 [00:01<00:00, 19.87it/s][A                                                                                                                                                        
+                                                                                                                                                        [A 88%|███████████████████████████████████████████████████████████████████████████████████████████████████▋             | 150/170 [04:15<00:32,  1.65s/it]
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:01<00:00, 19.87it/s][A
+                                                                                                                                                        [A 89%|████████████████████████████████████████████████████████████████████████████████████████████████████▎            | 151/170 [04:16<00:40,  2.11s/it] 89%|█████████████████████████████████████████████████████████████████████████████████████████████████████            | 152/170 [04:18<00:35,  1.97s/it] 90%|█████████████████████████████████████████████████████████████████████████████████████████████████████▋           | 153/170 [04:20<00:31,  1.87s/it] 91%|██████████████████████████████████████████████████████████████████████████████████████████████████████▎          | 154/170 [04:21<00:28,  1.80s/it] 91%|███████████████████████████████████████████████████████████████████████████████████████████████████████          | 155/170 [04:23<00:26,  1.76s/it]                                                                                                                                                         91%|███████████████████████████████████████████████████████████████████████████████████████████████████████          | 155/170 [04:23<00:26,  1.76s/it] 92%|███████████████████████████████████████████████████████████████████████████████████████████████████████▋         | 156/170 [04:25<00:24,  1.72s/it] 92%|████████████████████████████████████████████████████████████████████████████████████████████████████████▎        | 157/170 [04:26<00:22,  1.71s/it] 93%|█████████████████████████████████████████████████████████████████████████████████████████████████████████        | 158/170 [04:28<00:20,  1.70s/it] 94%|█████████████████████████████████████████████████████████████████████████████████████████████████████████▋       | 159/170 [04:30<00:18,  1.69s/it] 94%|██████████████████████████████████████████████████████████████████████████████████████████████████████████▎      | 160/170 [04:31<00:16,  1.68s/it]                                                                                                                                                         94%|██████████████████████████████████████████████████████████████████████████████████████████████████████████▎      | 160/170 [04:31<00:16,  1.68s/it] 95%|███████████████████████████████████████████████████████████████████████████████████████████████████████████      | 161/170 [04:33<00:15,  1.67s/it] 95%|███████████████████████████████████████████████████████████████████████████████████████████████████████████▋     | 162/170 [04:35<00:13,  1.67s/it] 96%|████████████████████████████████████████████████████████████████████████████████████████████████████████████▎    | 163/170 [04:36<00:11,  1.67s/it] 96%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████    | 164/170 [04:38<00:10,  1.68s/it] 97%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████▋   | 165/170 [04:40<00:08,  1.67s/it]                                                                                                                                                         97%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████▋   | 165/170 [04:40<00:08,  1.67s/it] 98%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████▎  | 166/170 [04:41<00:06,  1.68s/it] 98%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████  | 167/170 [04:43<00:05,  1.69s/it] 99%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████▋ | 168/170 [04:45<00:03,  1.73s/it] 99%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎| 169/170 [04:47<00:01,  1.78s/it]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 170/170 [04:48<00:00,  1.66s/it]                                                                                                                                                        100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 170/170 [04:48<00:00,  1.66s/it][INFO|trainer.py:2668] 2026-05-23 12:01:21,785 >> 
+***** Running Evaluation *****
+[INFO|trainer.py:2670] 2026-05-23 12:01:21,785 >>   Num examples = 30
+[INFO|trainer.py:2673] 2026-05-23 12:01:21,785 >>   Batch size = 1
+{'eval_loss': '0.9944', 'eval_runtime': '1.539', 'eval_samples_per_second': '19.49', 'eval_steps_per_second': '19.49', 'epoch': '4.415'}
+{'loss': '0.7037', 'grad_norm': '1.858', 'learning_rate': '1.337e-06', 'epoch': '4.563'}
+{'loss': '0.7285', 'grad_norm': '2.119', 'learning_rate': '6.35e-07', 'epoch': '4.711'}
+{'loss': '0.6694', 'grad_norm': '2.126', 'learning_rate': '1.895e-07', 'epoch': '4.859'}
+{'loss': '0.6611', 'grad_norm': '2.454', 'learning_rate': '5.27e-09', 'epoch': '5'}
+
+  0%|                                                                                                                            | 0/30 [00:00<?, ?it/s][A
+ 10%|███████████▌                                                                                                        | 3/30 [00:00<00:01, 24.31it/s][A
+ 20%|███████████████████████▏                                                                                            | 6/30 [00:00<00:01, 20.33it/s][A
+ 30%|██████████████████████████████████▊                                                                                 | 9/30 [00:00<00:01, 19.15it/s][A
+ 37%|██████████████████████████████████████████▏                                                                        | 11/30 [00:00<00:01, 18.59it/s][A
+ 43%|█████████████████████████████████████████████████▊                                                                 | 13/30 [00:00<00:00, 18.37it/s][A
+ 50%|█████████████████████████████████████████████████████████▌                                                         | 15/30 [00:00<00:00, 18.06it/s][A
+ 57%|█████████████████████████████████████████████████████████████████▏                                                 | 17/30 [00:00<00:00, 17.63it/s][A
+ 63%|████████████████████████████████████████████████████████████████████████▊                                          | 19/30 [00:01<00:00, 17.85it/s][A
+ 70%|████████████████████████████████████████████████████████████████████████████████▌                                  | 21/30 [00:01<00:00, 17.52it/s][A
+ 77%|████████████████████████████████████████████████████████████████████████████████████████▏                          | 23/30 [00:01<00:00, 17.80it/s][A
+ 83%|███████████████████████████████████████████████████████████████████████████████████████████████▊                   | 25/30 [00:01<00:00, 18.14it/s][A
+ 90%|███████████████████████████████████████████████████████████████████████████████████████████████████████▌           | 27/30 [00:01<00:00, 17.97it/s][A
+ 97%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████▏   | 29/30 [00:01<00:00, 17.72it/s][A                                                                                                                                                        
+                                                                                                                                                        [A100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 170/170 [04:50<00:00,  1.66s/it]
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:01<00:00, 17.72it/s][A
+                                                                                                                                                        [A[INFO|trainer.py:3815] 2026-05-23 12:01:23,496 >> Saving model checkpoint to /root/autodl-tmp/saves/qwen25-7b-lora-sft-m2/checkpoint-170
+[INFO|configuration_utils.py:769] 2026-05-23 12:01:23,516 >> loading configuration file /root/autodl-tmp/models/Qwen2.5-7B-Instruct/config.json
+[INFO|configuration_utils.py:847] 2026-05-23 12:01:23,517 >> Model config Qwen2Config {
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "hidden_act": "silu",
+  "hidden_size": 3584,
+  "initializer_range": 0.02,
+  "intermediate_size": 18944,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 32768,
+  "max_window_layers": 28,
+  "model_type": "qwen2",
+  "num_attention_heads": 28,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 4,
+  "pad_token_id": null,
+  "rms_norm_eps": 1e-06,
+  "rope_parameters": {
+    "rope_theta": 1000000.0,
+    "rope_type": "default"
+  },
+  "sliding_window": null,
+  "tie_word_embeddings": false,
+  "transformers_version": "5.6.0",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 152064
+}
+
+[INFO|tokenization_utils_base.py:3278] 2026-05-23 12:01:23,630 >> chat template saved in /root/autodl-tmp/saves/qwen25-7b-lora-sft-m2/checkpoint-170/chat_template.jinja
+[INFO|tokenization_utils_base.py:2111] 2026-05-23 12:01:23,630 >> tokenizer config file saved in /root/autodl-tmp/saves/qwen25-7b-lora-sft-m2/checkpoint-170/tokenizer_config.json
+[INFO|trainer.py:1823] 2026-05-23 12:01:23,911 >> 
+
+Training completed. Do not forget to share your model on huggingface.co/models =)
+
+
+                                                                                                                                                        100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 170/170 [04:50<00:00,  1.66s/it]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 170/170 [04:50<00:00,  1.71s/it]
+[INFO|trainer.py:3815] 2026-05-23 12:01:23,913 >> Saving model checkpoint to /root/autodl-tmp/saves/qwen25-7b-lora-sft-m2
+[INFO|configuration_utils.py:769] 2026-05-23 12:01:23,931 >> loading configuration file /root/autodl-tmp/models/Qwen2.5-7B-Instruct/config.json
+[INFO|configuration_utils.py:847] 2026-05-23 12:01:23,933 >> Model config Qwen2Config {
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "hidden_act": "silu",
+  "hidden_size": 3584,
+  "initializer_range": 0.02,
+  "intermediate_size": 18944,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 32768,
+  "max_window_layers": 28,
+  "model_type": "qwen2",
+  "num_attention_heads": 28,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 4,
+  "pad_token_id": null,
+  "rms_norm_eps": 1e-06,
+  "rope_parameters": {
+    "rope_theta": 1000000.0,
+    "rope_type": "default"
+  },
+  "sliding_window": null,
+  "tie_word_embeddings": false,
+  "transformers_version": "5.6.0",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 152064
+}
+
+[INFO|tokenization_utils_base.py:3278] 2026-05-23 12:01:24,031 >> chat template saved in /root/autodl-tmp/saves/qwen25-7b-lora-sft-m2/chat_template.jinja
+[INFO|tokenization_utils_base.py:2111] 2026-05-23 12:01:24,032 >> tokenizer config file saved in /root/autodl-tmp/saves/qwen25-7b-lora-sft-m2/tokenizer_config.json
+{'eval_loss': '0.9958', 'eval_runtime': '1.712', 'eval_samples_per_second': '17.52', 'eval_steps_per_second': '17.52', 'epoch': '5'}
+{'train_runtime': '290.8', 'train_samples_per_second': '4.643', 'train_steps_per_second': '0.585', 'train_loss': '1.049', 'epoch': '5'}
+***** train metrics *****
+  epoch                    =        5.0
+  total_flos               =  4349015GF
+  train_loss               =     1.0489
+  train_runtime            = 0:04:50.75
+  train_samples_per_second =      4.643
+  train_steps_per_second   =      0.585
+Figure saved at: /root/autodl-tmp/saves/qwen25-7b-lora-sft-m2/training_loss.png
+Figure saved at: /root/autodl-tmp/saves/qwen25-7b-lora-sft-m2/training_eval_loss.png
+[WARNING|2026-05-23 12:01:24] llamafactory.extras.ploting:149 >> No metric eval_accuracy to plot.
+[INFO|trainer.py:2668] 2026-05-23 12:01:24,296 >> 
+***** Running Evaluation *****
+[INFO|trainer.py:2670] 2026-05-23 12:01:24,296 >>   Num examples = 30
+[INFO|trainer.py:2673] 2026-05-23 12:01:24,296 >>   Batch size = 1
+  0%|                                                                                                                            | 0/30 [00:00<?, ?it/s] 10%|███████████▌                                                                                                        | 3/30 [00:00<00:01, 24.42it/s] 20%|███████████████████████▏                                                                                            | 6/30 [00:00<00:01, 20.43it/s] 30%|██████████████████████████████████▊                                                                                 | 9/30 [00:00<00:01, 19.46it/s] 37%|██████████████████████████████████████████▏                                                                        | 11/30 [00:00<00:01, 18.88it/s] 43%|█████████████████████████████████████████████████▊                                                                 | 13/30 [00:00<00:00, 18.31it/s] 50%|█████████████████████████████████████████████████████████▌                                                         | 15/30 [00:00<00:00, 17.85it/s] 57%|█████████████████████████████████████████████████████████████████▏                                                 | 17/30 [00:00<00:00, 18.04it/s] 63%|████████████████████████████████████████████████████████████████████████▊                                          | 19/30 [00:01<00:00, 17.60it/s] 70%|████████████████████████████████████████████████████████████████████████████████▌                                  | 21/30 [00:01<00:00, 17.78it/s] 77%|████████████████████████████████████████████████████████████████████████████████████████▏                          | 23/30 [00:01<00:00, 18.17it/s] 83%|███████████████████████████████████████████████████████████████████████████████████████████████▊                   | 25/30 [00:01<00:00, 17.81it/s] 90%|███████████████████████████████████████████████████████████████████████████████████████████████████████▌           | 27/30 [00:01<00:00, 17.78it/s] 97%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████▏   | 29/30 [00:01<00:00, 17.78it/s]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:01<00:00, 18.32it/s]
+[INFO|modelcard.py:263] 2026-05-23 12:01:25,997 >> Dropping the following result as it does not have all the necessary fields:
+{'task': {'name': 'Causal Language Modeling', 'type': 'text-generation'}}
+***** eval metrics *****
+  epoch                   =        5.0
+  eval_loss               =     0.9958
+  eval_runtime            = 0:00:01.70
+  eval_samples_per_second =     17.641
+  eval_steps_per_second   =     17.641
